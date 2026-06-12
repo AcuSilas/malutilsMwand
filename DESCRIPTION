@@ -1,0 +1,18 @@
+Package: malutilsMwand
+Title: The Package calculates incidence and test positivity rate
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Claculates incidence and tpr from either a vector or from file. 
+    This helps the user carry out reproducibility easily.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    cli,
+    dplyr,
+    rlang
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
